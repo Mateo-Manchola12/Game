@@ -8,7 +8,7 @@ class CHARACTER:
         self.speed = PHYSICS.speed
 
     def draw(self, screen):
-        self.rect = pygame.draw.rect(screen, COLOR.blue.light, rect=(self.x, self.y, self.size, self.size))
+        self.rect = pygame.draw.rect(screen, COLOR.black, rect=(self.x, self.y, self.size, self.size))
 
     def move(self, dx, dy):
         self.x += dx*self.speed;

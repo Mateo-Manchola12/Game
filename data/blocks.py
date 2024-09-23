@@ -14,6 +14,7 @@ BLOCKS = [
     BLOCK("grass","Tierra", COLOR.green.light, True, True),
     BLOCK("wood","Madera", COLOR.brown, True, True),
     BLOCK("stone","Piedra", COLOR.gray.dark, False, True),
+    BLOCK("water", "Agua", COLOR.blue.dark, False, False)
 ]
 
 class block():
